@@ -134,7 +134,7 @@
 }
 
 .satu {
-  background-image: url(../pertama.jpg);
+  background-image: url(pertama.jpg);
   filter: grayscale();
   -webkit-filter: grayscale();
   color: var(--putih);
@@ -158,6 +158,6 @@
 }
 
 .dua {
-  background-image: url(../kedua.jpg);
+  background-image: url(kedua.jpg);
 }
 /* parallax end */
