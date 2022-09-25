@@ -39,3 +39,10 @@ function erase() {
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
+
+let btn = document.querySelector('#btn');
+let sidebar = document.querySelector('.sidebar');
+
+btn.onclick = function(){
+  sidebar.classList.toggle('active');
+}
